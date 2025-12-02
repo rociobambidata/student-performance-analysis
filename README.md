@@ -1,33 +1,41 @@
 # Student Performance Analysis
-Exploración de los factores que influyen en el rendimiento académico de los estudiantes
+
+## Exploring the factors that influence student academic performance
+
+This project analyzes how personal, academic, and family-related factors affect students’ final exam performance.  
+Using the **Student Performance Factors** dataset from Kaggle, the analysis explores patterns, tests hypotheses, and identifies which variables most strongly predict the final exam score (**Exam_Score**).
+
+The goal is to provide insights that help educators, institutions, and anyone interested in understanding what supports or limits student academic success.
 
 ---
 
-## Descripción
-Este proyecto analiza cómo distintos factores personales, académicos y familiares influyen en el rendimiento escolar de los estudiantes.
+## Dataset
 
-Utiliza el dataset **Student Performance Factors (Kaggle)** para identificar patrones, evaluar hipótesis y comprender qué variables tienen mayor impacto sobre el puntaje final del examen (*Exam_Score*).
-
-El objetivo es ofrecer información útil para docentes, instituciones educativas y cualquier persona interesada en entender qué elementos favorecen —o dificultan— el éxito académico.
-
----
-
-## Fuente de datos
-Dataset proveniente de Kaggle: **Student Performance Factors**.  
-El archivo CSV está incluido en este repositorio dentro de la carpeta **/data**, lo que permite reproducir el análisis sin necesidad de descargas adicionales.
-
----
-
-## Objetivos del análisis
-- Analizar el impacto de hábitos académicos como **horas de estudio** y **asistencia**.  
-- Evaluar el rol del **entorno familiar**, incluyendo nivel educativo de los padres e ingresos.  
-- Explorar factores personales: horas de sueño, actividad física, motivación, género, dificultades de aprendizaje.  
-- Validar hipótesis sobre qué elementos predicen mejor el rendimiento.  
-- Presentar visualizaciones claras que permitan interpretar los resultados.
+- **Source:** Kaggle – Student Performance Factors  
+- Included in the repository under `/data` for full reproducibility.  
+- Variables include:  
+  - Study habits  
+  - Attendance  
+  - Family background  
+  - Sleep and physical activity  
+  - Motivation  
+  - Previous academic performance  
+  - Demographic information  
 
 ---
 
-## Tecnologías utilizadas
+## Objectives
+
+- Analyze the impact of study habits (study hours, attendance).  
+- Examine family variables such as parental education and income.  
+- Explore personal factors: sleep, physical activity, motivation, gender, learning difficulties.  
+- Test hypotheses about which variables best predict academic performance.  
+- Produce clear visualizations to support insights.
+
+---
+
+## Tech Stack
+
 - Python  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
@@ -35,31 +43,40 @@ El archivo CSV está incluido en este repositorio dentro de la carpeta **/data**
 
 ---
 
-## Contenido del repositorio
-- **/data** → Base de datos utilizada (CSV)  
-- **/notebook** → Notebook completo del análisis (.ipynb)  
-- **/requirements.txt** → Librerías necesarias para reproducir el proyecto  
+## Repository Structure
+
+/data  
+    student_performance.csv  
+
+/notebook  
+    Student_Performance_Analysis.ipynb  
+
+requirements.txt  
 
 ---
 
-## Principales hallazgos
-- **Horas de estudio y asistencia** son los factores más determinantes en el rendimiento académico. La asistencia presenta la correlación más alta con el *Exam_Score* (0.58).  
-- **Los puntajes previos** influyen considerablemente: quienes tuvieron buen desempeño histórico tienden a mantenerlo.  
-- **La motivación** muestra una diferencia leve entre grupos, pero no es un predictor fuerte por sí sola.  
-- **El nivel educativo de los padres** sí marca una tendencia: a mayor nivel educativo, mayor puntaje promedio.  
-- **El acceso a internet** no mostró un impacto significativo.  
-- **No existen diferencias importantes entre géneros** en el puntaje del examen.  
-- **El tipo de escuela (pública/privada)** tampoco evidenció influencia.  
-- **Horas de sueño y actividad física** presentan una relación débil con el rendimiento.
+## Key Findings
 
-En conjunto, el rendimiento académico se explica principalmente por **hábitos de estudio y participación escolar**, mientras que factores demográficos muestran una influencia menor.
+- **Attendance** is the strongest predictor of exam score (correlation 0.58).  
+- **Study hours** also show a meaningful positive effect.  
+- **Previous scores** strongly correlate with current exam performance.  
+- **Parental education level** shows a clear upward trend: higher education → higher exam scores.  
+- **Motivation** shows small differences but is not a strong predictor on its own.  
+- **Internet access**, **gender**, and **school type** (public/private) have no significant impact.  
+- **Sleep** and **physical activity** show weak or negligible relationships with performance.
+
+Overall: academic performance is mainly driven by **study habits and school participation**, while demographic factors have much less influence.
 
 ---
 
-## Cómo reproducir el análisis
-1. Clonar o descargar este repositorio.  
-2. Instalar dependencias:  
-   ```bash
-   pip install -r requirements.txt
-3. Ejecutar el notebook:
+## How to Reproduce
+
+1. Clone or download the repository.  
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+
+3. Open and run the notebook:
+
 /notebook/Student_Performance_Analysis.ipynb
