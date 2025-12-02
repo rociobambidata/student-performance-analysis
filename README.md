@@ -46,10 +46,10 @@ The goal is to provide insights that help educators, institutions, and anyone in
 ## Repository Structure
 
 /data  
-    student_performance.csv  
+    StudentPerformanceFactors.csv  
 
 /notebook  
-    Student_Performance_Analysis.ipynb  
+    Student_Performance_Factors.ipynb  
 
 requirements.txt  
 
