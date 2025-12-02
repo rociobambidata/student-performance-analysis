@@ -44,7 +44,7 @@ The goal is to provide insights that help educators, institutions, and anyone in
 ---
 
 ## Repository Structure
-
+```
 /data  
     StudentPerformanceFactors.csv  
 
@@ -52,7 +52,7 @@ The goal is to provide insights that help educators, institutions, and anyone in
     Student_Performance_Factors.ipynb  
 
 requirements.txt  
-
+```
 ---
 
 ## Key Findings
@@ -73,10 +73,10 @@ Overall: academic performance is mainly driven by **study habits and school part
 
 1. Clone or download the repository.  
 2. Install the required dependencies:
-
+```
 pip install -r requirements.txt
-
-
+```
 3. Open and run the notebook:
-
+```
 /notebook/Student_Performance_Analysis.ipynb
+```
