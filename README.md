@@ -69,7 +69,9 @@ Overall: academic performance is mainly driven by **study habits and school part
 
 ---
 
-## Results / Figures
+## Results / Key Figures
+
+Here are the main visualizations from the analysis:
 
 ### Hours Studied vs Exam Score
 ![Hours Studied vs Exam Score](figures/study_hours_vs_exam_score.png)
@@ -77,17 +79,8 @@ Overall: academic performance is mainly driven by **study habits and school part
 ### Exam Score by Motivation
 ![Exam Score by Motivation](figures/exam_score_by_motivation.png)
 
-### Sleep Hours vs Exam Score
-![Sleep Hours vs Exam Score](figures/sleep_hours_vs_exam_score.png)
-
-### Exam Score by Gender
-![Exam Score by Gender](figures/exam_score_by_gender.png)
-
-### Attendance, Previous Scores vs Exam
-![Attendance, Previous Scores vs Exam](figures/attendance_previous_scores_vs_exam.png)
-
-### Exam Score by Parental Education (Avg)
-![Exam Score by Parental Education (Avg)](figures/exam_score_by_parent_edu_avg.png)
+### Attendance & Previous Scores vs Exam
+![Attendance & Previous Scores vs Exam](figures/attendance_previous_scores_vs_exam.png)
 
 ### Exam Score by Parental Education (Boxplot)
 ![Exam Score by Parental Education (Boxplot)](figures/exam_score_by_parent_edu_box.png)
@@ -95,17 +88,10 @@ Overall: academic performance is mainly driven by **study habits and school part
 ### Correlation Heatmap
 ![Correlation Heatmap](figures/correlation_heatmap.png)
 
-### School Type Distribution
-![School Type Distribution](figures/school_type_distribution.png)
-
-### Exam Score by School Type (KDE)
-![Exam Score by School Type (KDE)](figures/exam_score_by_school_type_kde.png)
-
-### Physical Activity Histogram
-![Physical Activity Histogram](figures/physical_activity_hist.png)
-
 ### Physical Activity vs Exam Score
 ![Physical Activity vs Exam Score](figures/physical_activity_vs_exam_score.png)
+
+> Other visualizations, including distributions by sleep hours, gender, school type, and more detailed charts, are available in the notebook under `/notebooks/Student_Performance_Factors.ipynb`.
 
 ## How to Reproduce
 
